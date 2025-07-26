@@ -89,7 +89,6 @@ export default function RootLayout({
         
         {/* Favicon - using only SVG and ICO */}
         <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-        <link rel="icon" href="/favicon.ico" sizes="any" />
         
         {/* Additional meta tags for better SEO */}
         <meta name="format-detection" content="telephone=no" />
