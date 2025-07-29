@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Github, Linkedin, Mail } from "lucide-react";
+import { Github, Linkedin, Mail,Instagram } from "lucide-react";
 import Link from "next/link";
 
 const XIcon = () => (
@@ -18,6 +18,7 @@ const socialLinks = [
   { name: "GitHub", href: "https://github.com/BrahimChatri", icon: <Github /> },
   { name: "LinkedIn", href: "https://linkedin.com/in/brahim-chatri", icon: <Linkedin /> },
   { name: "Upwork", href: "https://www.upwork.com/freelancers/~01d94524fc1206422d", icon: <UpworkIcon /> },
+  { name: "Instagram", href: "https://www.instagram.com/brahim_chatri", icon: <Instagram /> },
   { name: "Twitter", href: "https://x.com/dev_brahim", icon: <XIcon /> },
 ];
 
