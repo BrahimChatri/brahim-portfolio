@@ -45,6 +45,16 @@ const projects = [
   live: "#",
   image: "https://placehold.co/600x400.png",
   image_hint: "email interface or backend structure"
+},
+{
+ title: "Django Job Board API",
+ description:
+   "A comprehensive RESTful job board API built with Django REST Framework, featuring JWT authentication, encrypted user data, advanced job search/filtering, application tracking, and file uploads. Includes employer job management, candidate profiles, and real-time application status updates with complete CRUD operations.",
+ tech: ["Django", "Django REST Framework", "JWT", "PostgreSQL", "AES-256 Encryption", "Swagger"],
+ github: "https://github.com/BrahimChatri/alx-project-nexus",
+ live: "http://api.chatri.dev/",
+ image: "https://placehold.co/600x400.png",
+ image_hint: "job board dashboard or API documentation interface"
 }
 ];
 
