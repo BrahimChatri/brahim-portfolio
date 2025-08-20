@@ -14,15 +14,20 @@ const skills = [
 
   // Databases
   "MongoDB",
+  "PostgreSQL",
 
   // DevOps & CI/CD
   "Docker",
   "Git & GitHub",
   "CI/CD Pipelines",
   "Cloud Deployment",
-  
+
   // Systems & Tools
   "Linux",
+  "AWS",
+  "GCP",
+  "Azure",
+
 ];
 
 
