@@ -65,7 +65,7 @@ const Hero = () => {
               transition={{ type: 'spring', stiffness: 300 }}
             >
               <Image
-                src="/hero-image.jpg"
+                src="/hero.jpeg"
                 alt="Brahim's profile photo"
                 width={400}
                 height={400}
