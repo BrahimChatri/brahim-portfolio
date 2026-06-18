@@ -1,4 +1,9 @@
+import { calculateAge } from "../../calculateAge";
+
 const About = () => {
+  const dob = process.env.NEXT_PUBLIC_DOB;
+  const age = calculateAge(dob);
+
   return (
     <section id="about" className="py-20 sm:py-32 fade-in">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -8,7 +13,7 @@ const About = () => {
           </h2>
           <div className="space-y-6 text-lg text-muted-foreground leading-relaxed">
             <p>
-              I'm <strong>Brahim Chatri</strong>, a 21-year-old <strong>self-taught software engineer</strong> based in <strong>Agadir, Morocco</strong>, with a strong focus on backend development. I specialize in building <strong>reliable, scalable, and maintainable backend systems</strong> with a focus on clean architecture and long-term code sustainability.
+              I'm <strong>Brahim Chatri</strong>, a {age}-year-old <strong>self-taught software engineer</strong> based in <strong>Agadir, Morocco</strong>, with a strong focus on backend development. I specialize in building <strong>reliable, scalable, and maintainable backend systems</strong> with a focus on clean architecture and long-term code sustainability.
             </p>
             <p>
               My core stack is centered around <strong>Python</strong>, using frameworks like <strong>Django, Flask,</strong> and <strong>FastAPI</strong> to deliver robust APIs and backend services. I’m also learning <strong>Rust</strong> and <strong>Bash</strong> to expand my systems programming and automation capabilities. Alongside that, I work with tools like <strong>Git, Docker, Linux (Ubuntu)</strong>, and basic <strong>CI/CD</strong> to streamline development and deployment workflows. I also explore <strong>modern AI tools</strong> to boost my productivity and automate repetitive tasks wherever possible.
